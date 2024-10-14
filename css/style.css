@@ -23,10 +23,11 @@ section{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 2em;
+    padding: 0em 2.2em 0em 2.2em;
 }
 .left{
  width: 100%;
+ padding-top: 2.5em;
  
 }
 .right{
@@ -34,6 +35,8 @@ section{
     color: #fff;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
+    text-align: center;
+    padding: 0em 2em 0em 2em;
 }
 
 .right h1{
@@ -43,11 +46,13 @@ section{
 .left img{
  width: 100%;
 }
-
-
-
-
-
+.right  button{
+    border-radius: 20px;
+    border: 0px solid;
+    padding: 1em 3em 1em 3em;
+    color:hsl(257, 40%, 49%);
+    font-weight: 400;
+}
 
 
 
@@ -64,14 +69,20 @@ section{
     }
     section{
         display: flex;
-        align-items: center;
-        justify-content: center;
+        align-items:start;
+        
         flex-direction: row;
     }
     .left{
         width: 50%;
+        padding-top: 2em;
        }
        .right{
-           width: 50%;
+           width: 40%;
+           text-align: left;
+           margin-top: 1.5em ;
+       }
+       .right h1{
+        font-size: 2em;
        }
 }
